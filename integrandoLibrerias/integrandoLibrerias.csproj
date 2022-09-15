@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="library\**" />
+    <EmbeddedResource Remove="library\**" />
+    <None Remove="library\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="libreriaSuma">
+      <HintPath>library\libreriaSuma.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
