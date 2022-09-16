@@ -14,6 +14,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="LibreriaDivision">
+      <HintPath>library\LibreriaDivision.dll</HintPath>
+    </Reference>
+    <Reference Include="LibreriaMultiplicacion">
+      <HintPath>library\LibreriaMultiplicacion.dll</HintPath>
+    </Reference>
+    <Reference Include="LibreriaResta">
+      <HintPath>library\LibreriaResta.dll</HintPath>
+    </Reference>
     <Reference Include="libreriaSuma">
       <HintPath>library\libreriaSuma.dll</HintPath>
     </Reference>
